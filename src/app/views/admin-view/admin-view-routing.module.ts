@@ -33,6 +33,7 @@ import { TablesDataComponent } from '../components/tables-data/tables-data.compo
 import { TablesGeneralComponent } from '../components/tables-general/tables-general.component';
 import { TabsComponent } from '../components/tabs/tabs.component';
 import { TooltipsComponent } from '../components/tooltips/tooltips.component';
+import { PrimengComponent } from '../components/primeng/primeng.component';
 
 const routes: Routes = [
 
@@ -68,6 +69,7 @@ const routes: Routes = [
   { path: 'pages-faq', component: PagesFaqComponent },
   { path: 'pages-blank', component: PagesBlankComponent },
   { path: 'pages-error404', component: PagesError404Component },
+  { path: 'primeng', component: PrimengComponent },
 ];
 
 @NgModule({
